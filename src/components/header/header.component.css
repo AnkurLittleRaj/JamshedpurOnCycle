@@ -1,0 +1,35 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  :host ::ng-deep .navBar  {
+    background-color:  #111;
+    /* #3263a2; */
+  
+    color: #fff;
+    font-family: MD Primer Bold,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .8rem;
+
+}
+/* .titleHeader{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 24px;
+     font-weight: 300; 
+    font-style: oblique;
+} */
+.example-container {
+    width: 500px;
+    height: 300px;
+    border: 1px solid transparent;
+    background: transparent;
+  }
+  .example-sidenav{
+    background-color:  #111;
+    /* #3263a2; */
+  
+    color: #fff;
+    margin-top: 3%;
+  }

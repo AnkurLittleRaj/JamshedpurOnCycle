@@ -1,0 +1,18 @@
+.content {
+    position: fixed;
+    bottom: 0;
+    background: #111;
+    /* color: #f1f1f1; */
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    font-family: MD Primer Bold,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .8rem;
+  }
+  #myVideo{
+    background: rgba(0, 0, 0, 0.5);  
+  }

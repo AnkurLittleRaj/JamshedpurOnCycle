@@ -1,0 +1,34 @@
+
+  
+  <div>
+    <mat-toolbar class="navBar" >
+     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon (click)="drawer.toggle($event);showFiller=true;">menu</mat-icon>
+      <mat-drawer-container class="example-container" autosize>
+        <mat-drawer #drawer class="example-sidenav" mode="side">
+          <!-- <p>Auto-resizing sidenav</p> -->
+          <p *ngIf="showFiller" ><span  (click)="areaDetails()">Dobo Dam</span></p>
+            <!-- <button  *ngIf="showFiller" (click)="areaDetails($event)"> Dobo Dam</button> -->
+          <button (click)="showFiller = !showFiller" mat-raised-button>
+            Toggle extra text
+          </button>
+        </mat-drawer>
+    
+        <!-- <div class="example-sidenav-content">
+          <button type="button" mat-button (click)="drawer.toggle()">
+            Toggle sidenav
+          </button>
+        </div> -->
+      
+      </mat-drawer-container>
+    </button>
+    <span class="titleHeader">Jamshedpur on Cycle <mat-icon>motorcycle</mat-icon></span>
+    <span class="example-spacer"></span>
+    <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>motorcycle</mat-icon>
+    </button> -->
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+     <mat-icon>share</mat-icon>
+   </button>
+  </mat-toolbar>
+</div>
